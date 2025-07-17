@@ -1,0 +1,66 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Common */
+
+.section {
+  max-width: 411px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+/* Header */
+
+.header {
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigation {
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-span {
+}
+
+.header-navigation-list,
+.header-subscribe-button-in,
+.header-subscribe-button-up {
+  display: none;
+}
+
+.header-navigation-list-item {
+}
+.header-subscribe-button-in {
+}
+.header-subscribe-button-up {
+}
+.header-burger-button {
+  display: flex;
+  font-display: auto;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 31px;
+  border: none;
+  padding: 0;
+}
+.header-burger-button-icon {
+}
