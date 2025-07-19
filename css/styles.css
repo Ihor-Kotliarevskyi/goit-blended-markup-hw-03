@@ -3,6 +3,18 @@ body {
   margin: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
 /* Common */
 
 .section {
@@ -53,14 +65,16 @@ body {
 .header-subscribe-button-up {
 }
 .header-burger-button {
-  display: flex;
-  font-display: auto;
-  justify-content: center;
-  align-items: center;
-  width: 28px;
-  height: 31px;
   border: none;
   padding: 0;
+  background-color: transparent;
 }
 .header-burger-button-icon {
+  display: block;
+  fill: #173a56;
+}
+
+/* Footer */
+
+.social-list-item-icon {
 }
