@@ -10,6 +10,13 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -40,13 +47,20 @@
               <a href="">Resources</a>
             </li>
           </ul>
-          <button class="header-subscribe-button-in" type="submit">
-            Sign In
-          </button>
-          <button class="header-subscribe-button-up" type="submit">
-            Sign Up
-          </button>
         </nav>
+        <ul class="header-list-button">
+          <li class="header-list-button-item">
+            <button class="header-subscribe-button-in" type="button">
+              Sign In
+            </button>
+          </li>
+          <li class="header-list-button-item">
+            <button class="header-subscribe-button-up" type="button">
+              Sign Up
+            </button>
+          </li>
+        </ul>
+
         <button class="header-burger-button" type="button">
           <svg class="header-burger-button-icon" width="28" height="31">
             <use href="./images/icons.svg#icon-burger-menu"></use>
@@ -65,13 +79,15 @@
             Tools, tutorials, design and innovation experts, all in one place!
             The most intuitive way to imagine your next user experience.
           </p>
-          <button class="hero-button-start">Get started</button>
-          <a class="hero-link-watch-video">
-            <svg class="hero-link-watch-video-icon" width="20" height="18">
-              <use href="./images/icons.svg#icon-play-video"></use>
-            </svg>
-            Watch the Video
-          </a>
+          <div class="buttons-box">
+            <button class="hero-button-start">Get started</button>
+            <a class="hero-link-watch-video" href="https://www.youtube.com">
+              <svg class="hero-link-watch-video-icon" width="20" height="18">
+                <use href="./images/icons.svg#icon-play-video"></use>
+              </svg>
+              <p class="hero-link-watch-video-text">Watch the Video</p>
+            </a>
+          </div class="buttons-box">
         </div>
       </section>
       <section class="benefits section">
@@ -123,9 +139,7 @@
               </p>
             </li>
           </ul>
-          <button class="benefits-button-sign-up" type="button">
-            SIGN UP NOW
-          </button>
+          <button class="benefits-button-sign-up" type="button">SIGN UP NOW</button>
         </div>
       </section>
       <section class="management section">
@@ -133,30 +147,32 @@
           <svg class="management-icon" width="349" height="306">
             <use href="./images/icons.svg#icon-management"></use>
           </svg>
-          <h2 class="management-title">
-            Effortless Validation for
-            <span class="management-title-span">Management</span>
-          </h2>
-          <p class="management-text">
-            The Myspace page defines the individual, his or her characteristics,
-            traits, personal choices and the overall personality of the person.
-          </p>
-          <ul class="management-list">
-            <li class="management-list-item">
-              <h3 class="management-list-item-title">Accessory makers</h3>
-              <p class="management-list-item-text">
-                While most people enjoy casino gambling, sports betting, lottery
-                and bingo playing for the fun
-              </p>
-            </li>
-            <li class="management-list-item">
-              <h3 class="management-list-item-title">Alterationists</h3>
-              <p class="management-list-item-text">
-                If you are looking for a new way to promote your business that
-                won’t cost you more money
-              </p>
-            </li>
-          </ul>
+          <div class="management-text-box">
+            <h2 class="management-title">
+              Effortless Validation for
+              <span class="management-title-span">Management</span>
+            </h2>
+            <p class="management-text">
+              The Myspace page defines the individual, his or her characteristics,
+              traits, personal choices and the overall personality of the person.
+            </p>
+            <ul class="management-list">
+              <li class="management-list-item">
+                <h3 class="management-list-item-title">Accessory makers</h3>
+                <p class="management-list-item-text">
+                  While most people enjoy casino gambling, sports betting, lottery
+                  and bingo playing for the fun
+                </p>
+              </li>
+              <li class="management-list-item">
+                <h3 class="management-list-item-title">Alterationists</h3>
+                <p class="management-list-item-text">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="support section">
@@ -164,47 +180,49 @@
           <svg class="support-icon" width="350" height="320">
             <use href="./images/icons.svg#icon-support"></use>
           </svg>
-          <h3 class="support-title">
-            Easier decision making for
-            <span class="support-title-span">Customer Support</span>
-          </h3>
-          <p class="support-text">
-            The Myspace page defines the individual, his or her characteristics,
-            traits, personal choices and the overall personality of the person.
-          </p>
-          <ul class="support-list">
-            <li class="support-list-item">
-              <div class="support-list-box-icon">
-                <svg class="support-list-icon" width="16" height="12">
-                  <use href="./images/icons.svg#icon-done"></use>
-                </svg>
-              </div>
-              <p class="support-list-text">
-                Never worry about overpaying for your energy again.
-              </p>
-            </li>
-            <li class="support-list-item">
-              <div class="support-list-box-icon">
-                <svg class="support-list-icon" width="16" height="12">
-                  <use href="./images/icons.svg#icon-done"></use>
-                </svg>
-              </div>
-              <p class="support-list-text">
-                We will only switch you to energy companies that we trust and
-                will treat you right
-              </p>
-            </li>
-            <li class="support-list-item">
-              <div class="support-list-box-icon">
-                <svg class="support-list-icon" width="16" height="12">
-                  <use href="./images/icons.svg#icon-done"></use>
-                </svg>
-              </div>
-              <p class="support-list-text">
-                We track the markets daily and know where the savings are.
-              </p>
-            </li>
-          </ul>
+          <div class="support-text-box">
+            <h3 class="support-title">
+              Easier decision making for
+              <span class="support-title-span">Customer Support</span>
+            </h3>
+            <p class="support-text">
+              The Myspace page defines the individual, his or her characteristics,
+              traits, personal choices and the overall personality of the person.
+            </p>
+            <ul class="support-list">
+              <li class="support-list-item">
+                <div class="support-list-box-icon">
+                  <svg class="support-list-icon" width="16" height="12">
+                    <use href="./images/icons.svg#icon-done"></use>
+                  </svg>
+                </div>
+                <p class="support-list-text">
+                  Never worry about overpaying for your energy again.
+                </p>
+              </li>
+              <li class="support-list-item">
+                <div class="support-list-box-icon">
+                  <svg class="support-list-icon" width="16" height="12">
+                    <use href="./images/icons.svg#icon-done"></use>
+                  </svg>
+                </div>
+                <p class="support-list-text">
+                  We will only switch you to energy companies that we trust and
+                  will treat you right
+                </p>
+              </li>
+              <li class="support-list-item">
+                <div class="support-list-box-icon">
+                  <svg class="support-list-icon" width="16" height="12">
+                    <use href="./images/icons.svg#icon-done"></use>
+                  </svg>
+                </div>
+                <p class="support-list-text">
+                  We track the markets daily and know where the savings are.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="collaborative section">
