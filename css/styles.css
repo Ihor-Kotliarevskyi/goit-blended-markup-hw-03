@@ -1,6 +1,6 @@
 /* TEMP */
 
-/* body {
+body {
   background-color: #9f9f9f34;
 }
 
@@ -26,7 +26,7 @@ a {
 
 svg {
   background-color: #f7ff02;
-} */
+}
 
 /* TEMP END */
 
@@ -290,7 +290,7 @@ img {
 .benefits-button-sign-up {
   display: block;
   border-radius: 4px;
-  width: 175px;
+  max-width: 175px;
   height: 53px;
   background: #02897a;
   font: 700 16px "Poppins", sans-serif;
@@ -426,6 +426,119 @@ img {
   max-width: 286px;
   font: 400 16px / 1.625 "Poppins", sans-serif;
   color: #22343d;
+}
+
+/* Collaborative */
+
+.collaborative .container {
+  width: 350px;
+  margin: 0 auto 141px;
+  padding-bottom: 15px;
+}
+
+.collaborative-icon {
+  margin-bottom: 50px;
+}
+
+.collaborative-title {
+  font: 600 16px "Poppins", sans-serif;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+
+.collaborative-title-span {
+  font: 700 32px "Poppins", sans-serif;
+  color: #22343d;
+  margin-top: 8px;
+}
+
+.collaborative-text {
+  font: 400 16px / 1.625 "Poppins", sans-serif;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+
+.collaborative-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.collaborative-list-item {
+  max-width: 344px;
+  margin: 0 auto;
+}
+
+.collaborative-list-title {
+  font: 600 16px / 1.625 "Poppins", sans-serif;
+  color: #22343d;
+}
+
+.collaborative-list-text {
+  font: 400 16px / 1.625 "Poppins", sans-serif;
+  color: #22343d;
+}
+
+/* Expert */
+
+.expert .container {
+  width: 348px;
+  margin: 0 auto 100px;
+}
+
+.expert-title {
+  font: 700 32px "Poppins", sans-serif;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 8px;
+}
+
+.expert-text {
+  font: 500 16px / 1.625 "Poppins", sans-serif;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 40px;
+}
+
+.expert-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.expert-list-item {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expert-list-item:nth-child(even) {
+  flex-direction: row-reverse;
+  gap: 14px;
+}
+
+.expert-list-image {
+  width: 90px;
+  height: 90px;
+}
+
+.expert-list-text {
+  max-width: 236px;
+}
+
+.expert-button {
+  display: block;
+  margin: 0 auto;
+  font: 700 16px "Poppins", sans-serif;
+  color: #fff;
+  max-width: 216px;
+  height: 53px;
+  border-radius: 4px;
+  background: #02897a;
 }
 
 /* Footer */
